@@ -15,7 +15,7 @@ katosys/prometheus-exporters node_exporter \
 ```
 docker run -it --rm --net host \
 katosys/prometheus-exporters haproxy_exporter \
-  -haproxy.scrapuri="http://localhost:9090/haproxy?stats;csv" \
+  -haproxy.scrape-uri "http://localhost:9090/haproxy?stats;csv" \
   -web.listen-address :9102
 ```
 
