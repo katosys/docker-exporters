@@ -1,4 +1,4 @@
-# exporters
+# docker-exporters
 
 [![Build Status](https://travis-ci.org/katosys/exporters.svg?branch=master)](https://travis-ci.org/katosys/exporters)
 
