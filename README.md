@@ -24,7 +24,7 @@ katosys/exporters haproxy_exporter \
 docker run -it --rm --net host \
 katosys/exporters zookeeper_exporter \
   -web.listen-address :9103 \
-  master-1:2181 master-2:2181 master-3:2181
+  quorum-1:2181 quorum-2:2181 quorum-3:2181
 ```
 
 #### mesos_exporter
