@@ -9,8 +9,8 @@ MAINTAINER Marc Villacorta Morera <marc.villacorta@gmail.com>
 # Environment variables:
 #------------------------------------------------------------------------------
 
-ENV NODE_EXPORTER_VERSION="0.12.0" \
-    HAPROXY_EXPORTER_VERSION="0.7.0" \
+ENV NODE_EXPORTER_VERSION="0.13.0" \
+    HAPROXY_EXPORTER_VERSION="0.7.1" \
     ZK_EXPORTER_VERSION="0.0.1" \
     MESOS_EXPORTER_VERSION="1.0-rc1"
 
