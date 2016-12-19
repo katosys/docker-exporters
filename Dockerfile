@@ -14,8 +14,8 @@ ENV NODE_EXPORTER_VERSION="0.13.0" \
     ZK_EXPORTER_VERSION="0.0.1" \
     MESOS_EXPORTER_VERSION="1.0-rc1"
 
-ENV NODE_EXPORTER_URL="https://github.com/prometheus/node_exporter/releases/download/${NODE_EXPORTER_VERSION}/node_exporter-${NODE_EXPORTER_VERSION}.linux-amd64.tar.gz" \
-    HAPROXY_EXPORTER_URL="https://github.com/prometheus/haproxy_exporter/releases/download/${HAPROXY_EXPORTER_VERSION}/haproxy_exporter-${HAPROXY_EXPORTER_VERSION}.linux-amd64.tar.gz" \
+ENV NODE_EXPORTER_URL="https://github.com/prometheus/node_exporter/releases/download/v${NODE_EXPORTER_VERSION}/node_exporter-${NODE_EXPORTER_VERSION}.linux-amd64.tar.gz" \
+    HAPROXY_EXPORTER_URL="https://github.com/prometheus/haproxy_exporter/releases/download/v${HAPROXY_EXPORTER_VERSION}/haproxy_exporter-${HAPROXY_EXPORTER_VERSION}.linux-amd64.tar.gz" \
     ZK_EXPORTER_URL="https://github.com/discordianfish/zookeeper_exporter/releases/download/${ZK_EXPORTER_VERSION}/zookeeper_exporter-v${ZK_EXPORTER_VERSION}-amd64-linux.gz" \
     MESOS_EXPORTER_URL="https://github.com/mesosphere/mesos_exporter/releases/download/v${MESOS_EXPORTER_VERSION}/mesos-exporter-v${MESOS_EXPORTER_VERSION}-amd64-linux.gz"
 
